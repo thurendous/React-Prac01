@@ -1,14 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import Blog from "./blog";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Blog />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root") // rootのところに当て込んでいる
 );
 
 // If you want to start measuring performance in your app, pass a function
